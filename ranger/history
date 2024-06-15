@@ -1,0 +1,50 @@
+rename Pala Palli Thiruppalli.opus
+rename Panda LOUD.mp3
+rename Po-Urave.mp3
+rename Polakatum-Para-Para.mp3
+rename Pona Pogattum.mp3
+rename Roy Jones Jr. - Can't Be Touched.mp3
+rename Can't Be Touched.mp3
+rename Serhat Durmus - La Calin.mp3
+rename Tere Bagairr.opus
+rename Thiruvasagam Song _ Azhagu Kutti Chellam.opus
+rename Thiruvasagam_Song_Azhagu Kutti Chellam.opus
+rename Falling.mp3
+rename Unholy.opus
+rename Unmai orunaal vellum.mp3
+rename Uyire.mp3
+rename Vizhiye Kalangathey.mp3
+rename kudi-vaalthu.mp3
+rename s3
+mkdir s4 s5
+shell mkdir s4 s5
+rename M.mp4
+shell 
+shell mkdir s2 s3
+rename 
+rename Spartacus Blood and Sand - 02x10 - Wrath Of The Gods.ASAP.English.HI.srt
+rename Spartacus Blood and Sand - 2x10 - Wrath Of The Gods.ASAP.English.HI.srt
+rename Spartacus Blood and Sand - 2x10 - Wrath Of The Gods.ASAP.English.en.srt
+rename Spartacus-Season-2-Episode-3.mv
+rename Spartacus-Season-2-Episode-3.mkv
+rename Spartacus-Season-2-Episode-2.mkv
+rename Spartacus-Season-2-Episode-1.mkv
+shell mkdir s12
+rename Oskar Lobbo “El Rey Del Zazaza” - Mesa Que Mas Aplauda en El Coque Va.webm
+shell mkdir test
+rename comp
+shell rm *.srt
+shell mv *.srt i.srt
+shell ffmpeg -i Basic.Instinct.1992.720p.BrRip.x264.YIFY.mp4 -f srt -i i.srt -map 0:0 -map 0:1 -map 1:0 -metadata:s:s:0 language=eng -c copy -c:s mov_text Basic.Instinct.1992.mp4 
+rename b-instinct.1992.mp4
+shell for i in *.mkv ; do ffmpeg -i $i -af volume=4.0 -c:v copy -c:s copy -c:a libopus "${i%.1992},mp4"; done
+shell pamarith q
+shell yt-dlp 'https://www.instagram.com/p/CtZxjTpI_49/'
+
+find 
+mkdir old
+open_with r
+open_with 
+mkdir me-pics
+rename L-stories 2 (2023) HQ HDRip - 720p - HEVC - (AAC 2.0) [Tam + Tel + Hin] - 900MB - ESub.mkv
+delete
